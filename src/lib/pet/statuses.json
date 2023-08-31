@@ -1,0 +1,14 @@
+[
+    {
+        "label": "Available",
+        "value": "available"
+    },
+    {
+        "label": "Pending",
+        "value": "pending"
+    },
+    {
+        "label": "Sold",
+        "value": "sold"
+    }
+]

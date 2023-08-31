@@ -1,28 +1,21 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="flex flex-col items-center mt-24">
+    <div class="w-full overflow-hidden">
+      <img
+        class="relative z-10 min-w-[780px] mx-auto"
+        alt="pets"
+        src="./assets/pets.png"
+      />
+    </div>
+    <main class="text-red-500 bg-red-100 w-full py-24 -mt-20">
+      <h1 class="text-2xl md:text-3xl font-bold text-center px-10">
+        Welcome to pets store
+      </h1>
+      <PetsList />
+    </main>
   </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+<script setup>
+import PetsList from "./components/PetsList.vue";
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
