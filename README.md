@@ -1,4 +1,11 @@
 # petstore
+Live: https://flourishing-brigadeiros-77c8c4.netlify.app/
+
+Stack:
+- Vue 3
+- Vuex
+- Tailwindcss
+- Axios
 
 ## Project setup
 ```
